@@ -20,6 +20,8 @@
 		894A18368322F18B6FCCC99E7A57CBBE /* Pods-cryptomon-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6453A7D317906E9B899A5120EBFAC4C6 /* Pods-cryptomon-tvOSTests-dummy.m */; };
 		91C9C419C2E304B3A68293C22053034E /* pb_encode.c in Sources */ = {isa = PBXBuildFile; fileRef = 1B9BE4F5A189EF8633AABBD222F66037 /* pb_encode.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc"; }; };
 		9CBD14C17446EC9384CFAADBADF12387 /* pb_common.c in Sources */ = {isa = PBXBuildFile; fileRef = 6D538FE5F937A07299552284D0E33A96 /* pb_common.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc -fno-objc-arc"; }; };
+		A9E04D2A209716F800153227 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9E04D28209716F800153227 /* Fabric.framework */; };
+		A9E04D2B209716F800153227 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9E04D29209716F800153227 /* Crashlytics.framework */; };
 		AAE5BA7EB2D6E9DC09F0FB3D16EB9752 /* pb_encode.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FAB38CA570F1F4B6777AC7FC528F78E /* pb_encode.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		ABDBA83E6C5901B1735EBD067FD0F39C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		AE40968E45EB75088481466E4E7671A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -90,6 +92,8 @@
 		979D39A6F69DEC63AC5FCC1F01A62BA3 /* Pods-cryptomon-tvOSTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cryptomon-tvOSTests-frameworks.sh"; sourceTree = "<group>"; };
 		987D7D3B832EF8F119DA2796463DCBFA /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
 		A7F69880C1B06C963F82ABB8AC0982FF /* Pods-cryptomon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cryptomon.release.xcconfig"; sourceTree = "<group>"; };
+		A9E04D28209716F800153227 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = ../Fabric.framework; sourceTree = "<group>"; };
+		A9E04D29209716F800153227 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = ../Crashlytics.framework; sourceTree = "<group>"; };
 		BEFCF1CDA7C62ED440C8DDEC07C8B1F8 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
 		CEF43143D38A1F2BB3F52946E6629F36 /* libPods-cryptomonTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cryptomonTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5B115B6EAD20E224DF13464DCC112FF /* Pods-cryptomonTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cryptomonTests-frameworks.sh"; sourceTree = "<group>"; };
@@ -113,6 +117,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE40968E45EB75088481466E4E7671A3 /* Foundation.framework in Frameworks */,
+				A9E04D2B209716F800153227 /* Crashlytics.framework in Frameworks */,
+				A9E04D2A209716F800153227 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +249,8 @@
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
+				A9E04D29209716F800153227 /* Crashlytics.framework */,
+				A9E04D28209716F800153227 /* Fabric.framework */,
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				D20196F804763B3817DC669C74EEB701 /* Pods */,

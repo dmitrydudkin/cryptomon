@@ -13,7 +13,6 @@
 		00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
 		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
 		00E356F31AD99517003FC87E /* cryptomonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* cryptomonTests.m */; };
-		0D3E8F7D857849909E5B09BD /* libRNFirebase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6271CB83CD8346F79607B0D5 /* libRNFirebase.a */; };
 		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
 		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
 		139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
@@ -49,6 +48,8 @@
 		9B68E45E927C4538B08A05A1 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3692B9E9E5140E5A6630BB2 /* Octicons.ttf */; };
 		A437EEB74A80A88594938763 /* libPods-cryptomon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FB49ADF28FF627E09D4C753 /* libPods-cryptomon.a */; };
 		A925D65A20938E210074ED70 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
+		A9E04D552097170C00153227 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9E04D2C2097170C00153227 /* Fabric.framework */; };
+		A9E04D562097170C00153227 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9E04D542097170C00153227 /* Crashlytics.framework */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		C76D4A6422DA4CD385ADFBC0 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26396190680A46C293AF283E /* Entypo.ttf */; };
 		D68BB06CA8154CA1B7F9CFB6 /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5266CA4BFC9E47F1BF45D3B7 /* Roboto.ttf */; };
@@ -389,6 +390,8 @@
 		9789745BC852035C4B4EC1C6 /* Pods-cryptomonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cryptomonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cryptomonTests/Pods-cryptomonTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9FB49ADF28FF627E09D4C753 /* libPods-cryptomon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cryptomon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7AAF101F8774272A46D989F /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		A9E04D2C2097170C00153227 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		A9E04D542097170C00153227 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		AEBF2CD65A1A482AB1A03BE8 /* Roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_medium.ttf; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; };
 		B3692B9E9E5140E5A6630BB2 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
@@ -425,10 +428,11 @@
 				00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */,
 				139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */,
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
+				A9E04D562097170C00153227 /* Crashlytics.framework in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
+				A9E04D552097170C00153227 /* Fabric.framework in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				326515C0DB87485BAF2391C1 /* libReactNativeConfig.a in Frameworks */,
-				0D3E8F7D857849909E5B09BD /* libRNFirebase.a in Frameworks */,
 				A437EEB74A80A88594938763 /* libPods-cryptomon.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -638,6 +642,8 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				A9E04D542097170C00153227 /* Crashlytics.framework */,
+				A9E04D2C2097170C00153227 /* Fabric.framework */,
 				13B07FAE1A68108700A75B9A /* cryptomon */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* cryptomonTests */,
@@ -764,6 +770,7 @@
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				02A8C1F1E2D6A77759150219 /* [CP] Embed Pods Frameworks */,
 				04F9A30DDB6F29F9DA0242B7 /* [CP] Copy Pods Resources */,
+				A9E04CF22097162600153227 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -1366,6 +1373,19 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A9E04CF22097162600153227 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 46c5283d5abea8ae7e1f9d7b3dc30bc578cf068f 76fefc772d41f3ea4606ab1a75b1db5e9f2083b04d7ab72e8d0f636e57955e38    ";
+		};
 		B14A0FCEE71C9564F5035242 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1548,6 +1568,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = RSMAPYWHLJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-config/ios/ReactNativeConfig",
@@ -1573,6 +1597,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RSMAPYWHLJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-config/ios/ReactNativeConfig",
