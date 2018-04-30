@@ -14,12 +14,13 @@ export const INITIAL_STATE = Immutable({
 })
 
 export const received = (state, { data }) => {
-  const LOADCOMPLETE = '3'
+  const LOADCOMPLETE = 3
+  const PRICE_UNCHANGED = 4
 
   data = data.split('~')
-  const [type,,fromCurrency] = data
+  const [type,,fromCurrency,,flag] = data
 
-  if (type === LOADCOMPLETE)
+  if (type == LOADCOMPLETE || flag == PRICE_UNCHANGED)
     return state
 
   return state.merge({
