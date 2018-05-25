@@ -1,8 +1,5 @@
 # Cryptomon
 
-#####  Test job for umbrella-web.com
-
-
 To start app
 ```sh
 react-native run-ios
